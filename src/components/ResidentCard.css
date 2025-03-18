@@ -1,3 +1,56 @@
+.resident-card {
+	border: 1px solid #48761edc;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.resident__header {
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+.resident__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.resident__status {
+	position: absolute;
+	top: 2em;
+	left: 0;
+	background-color: #ffffff;
+	color: #b8c76e;
+	padding: 0.5em 1em;
+	border-radius: 0 8px 8px 0;
+}
+
+.resident__body {
+	padding: 1em 1.5em;
+}
+
+.resident__name {
+	border-bottom: 1px solid #999;
+	padding-bottom: 0.5em;
+}
+
+.resident__info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.resident__item {
+	color: #999;
+	text-transform: capitalize;
+}
+
+.resident__span {
+	color: #000;
+	font-weight: bold;
+}
+
 .animation__loading {
 	width: 50px;
 	height: 50px;

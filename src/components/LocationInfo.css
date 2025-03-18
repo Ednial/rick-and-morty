@@ -1,0 +1,43 @@
+.location {
+	padding: 2em 1em;
+	padding-top: 1em;
+	display: grid;
+	place-content: center;
+}
+
+.location__container {
+	background-image: url(../assets/pickelRick.jpg);
+	background-size: cover;
+	max-width: 600px;
+	min-width: 300px;
+	width: 100%;
+	border: 1px solid green;
+	padding: 2em;
+	border-radius: 15px;
+	box-shadow: 0 0 10px 3px rgba(0, 128, 0, 0.612);
+}
+
+.location__name {
+	color: #fff;
+	text-align: center;
+}
+
+.location__info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 4rem;
+}
+
+.location__item {
+	color: #bac96e;
+	text-align: center;
+}
+
+.location__span {
+	display: block;
+	color: #03ff0c;
+	font-weight: 700;
+}

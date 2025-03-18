@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
 import useFetchApi from './hooks/useFetchApi';
-import ResidentsList from './components/ResidentsList';
-import LocationInfo from './components/LocationInfo';
-import Search from './components/Search';
+import { getRandomItem } from './utils';
 import Hero from './components/Hero';
+import Search from './components/Search';
+import LocationInfo from './components/LocationInfo';
+import ResidentsList from './components/ResidentsList';
 
 const baseURL = 'https://rickandmortyapi.com/api/location';
 function App() {
 	const { data: location, request } = useFetchApi();
-	const [locationId, setLocationId] = useState('3');
+	const [locationId, setLocationId] = useState(getRandomItem());
 
 	useEffect(() => {
 		request(`${baseURL}/${locationId}`);

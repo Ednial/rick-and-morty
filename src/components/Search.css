@@ -1,0 +1,26 @@
+.search {
+	padding: 2.5em 1em;
+	display: grid;
+	justify-content: center;
+}
+
+.search__container {
+	width: 350px;
+	display: flex;
+	align-items: center;
+}
+
+.search__input {
+	border: solid 1px #508221;
+	width: 100%;
+	border-radius: 8px 0 0 8px;
+	padding: 0.5em 1em;
+}
+
+.search__button {
+	background-color: #508221;
+	color: white;
+	border: 1px solid transparent;
+	border-radius: 0 8px 8px 0;
+	padding: 0.5em 1em;
+}

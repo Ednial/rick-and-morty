@@ -29,11 +29,18 @@ function Search({ setLocationId }) {
 
 	return (
 		<div className="search">
-			<div>
-				<input type="text" ref={inputRef} onKeyDown={handleKeyPress} />
-				<button onClick={handleClick}>Search</button>
+			<div className="search__container">
+				<input
+					className="search__input"
+					type="text"
+					ref={inputRef}
+					onKeyDown={handleKeyPress}
+				/>
+				<button className="search__button" onClick={handleClick}>
+					Search
+				</button>
 			</div>
-			{error && <p>{error}</p>}
+			{error && <p className="search__error">{error}</p>}
 		</div>
 	);
 }
