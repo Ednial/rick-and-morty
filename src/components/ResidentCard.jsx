@@ -29,15 +29,15 @@ function ResidentCard({ url }) {
 						<h2 className="resident__name">{resident.name}</h2>
 						<ul className="resident__info">
 							<li className="resident__item">
-								<span className="resident__span">Specie</span>{' '}
+								<span className="resident__span">Specie:</span>{' '}
 								{resident.species}
 							</li>
 							<li className="resident__item">
-								<span className="resident__span">Origin</span>{' '}
+								<span className="resident__span">Origin:</span>{' '}
 								{resident.origin.name}
 							</li>
 							<li className="resident__item">
-								<span className="resident__span">Episodes where appear</span>{' '}
+								<span className="resident__span">Episodes where appear:</span>{' '}
 								{episodes} {episodes === 1 ? 'episode' : 'episodes'}
 							</li>
 						</ul>

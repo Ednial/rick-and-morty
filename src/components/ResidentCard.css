@@ -2,6 +2,8 @@
 	border: 1px solid #48761edc;
 	border-radius: 15px;
 	overflow: hidden;
+	box-shadow: 0 0 10px 0 #000000cc;
+	background-color: #22c05c;
 }
 
 .resident__header {
@@ -31,8 +33,10 @@
 }
 
 .resident__name {
-	border-bottom: 1px solid #999;
-	padding-bottom: 0.5em;
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 0.75em;
+	margin: 0;
+	margin-bottom: 0.75em;
 }
 
 .resident__info {
@@ -42,7 +46,7 @@
 }
 
 .resident__item {
-	color: #999;
+	color: #ffffff;
 	text-transform: capitalize;
 }
 

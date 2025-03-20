@@ -4,7 +4,7 @@ import './ResidentsList.css';
 
 function ResidentsList({ residents }) {
 	return (
-		<div className="reisdents">
+		<div className="residents">
 			{residents.map((resident) => (
 				<ResidentCard key={resident} url={resident} />
 			))}

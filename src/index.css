@@ -23,6 +23,9 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	background-image: url(./assets/morty.jpeg);
+	background-repeat: repeat;
+	background-size: 50px;
 }
 
 button {
